@@ -1,7 +1,9 @@
+import math
+import random
 
-def saludo(nombre):
-    return f'Hola {nombre}'
 
-var=saludo('Soacha')
-print(len(var))
-print(var)
+print(math.sqrt(100))
+print(math.pow(2,5))
+print(2**5)
+print(math.sqrt(100))
+print(math.pow(27,(1/3)))
