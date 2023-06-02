@@ -13,3 +13,4 @@ lista.append('python')
 print(lista)
 lista.insert(len(lista),'java')
 print(lista)
+
