@@ -1,12 +1,8 @@
-try:
-    temperature = float(input('Ingresa la temperatura actual:'))
+def bad_fun(n):
+    try:
+        return n / 0
+    except:
+        print("¡..........Lo hice otra vez!")
+        raise
 
-    if temperature > 0:
-        print("Por encima de cero")
-    elif temperature < 0:
-        prin("Por debajo de cero")
-    else:
-        print("Cero")
-except NameError:
-    print('name error')
-    
+bad_fun(0)

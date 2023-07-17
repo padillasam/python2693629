@@ -10,8 +10,8 @@ class Sub(Super):
         Super.__init__(self, name)
         self.__apellido=apellido
 
-    def __str__(self):
-        return super().__str__()+' '+self.__apellido
+    # def __str__(self):
+    #     return super().__str__()+' '+self.__apellido
     
     
 obj = Sub("Andy","Stallman")
