@@ -1,8 +1,9 @@
 def base(funcion):
-    print('Inicia la función base')
+    
     def interna():
+        print('Inicia la función base')
         funcion()    
-    print('Finaliza la función base')
+        print('Finaliza la función base')
     return interna
 
 def integrada():

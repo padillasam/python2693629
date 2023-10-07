@@ -1,9 +1,11 @@
 def base(funcion):
-    #print('Inicia la función base')
+    
     def interna(n1,n2):
-        #print(funcion(n1,n2))#*
-        return funcion(n1,n2)
-    #print('Finaliza la función base')
+        print('Inicia la función base')
+        #print(funcion(n1,n2))#*        
+        #return funcion(n1,n2)
+        funcion(n1,n2)
+        print('Finaliza la función base')
     return interna
 
 def suma(num1,num2):
