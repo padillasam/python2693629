@@ -1,7 +1,7 @@
 import requests
 import json
 
-url="https://httpbin.org/post?nombre=juan&documento=12345"
+url="https://httpbin.org/post"#?nombre=juan&documento=12345"
 response=requests.post(url)
 #print(response.content.decode())
 decodetest=response.content.decode()
