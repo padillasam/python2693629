@@ -10,6 +10,15 @@ def base(funcion):
 
 def suma2(num1,num2):
     return num1+num2
+@base
+def misuma(*args,**kwargs):
+    s=0
+    for x in args:
+        s+=x
+    return s
+
+misuma(1,2,10,20)
+
 
 @base
 def suma3(num1,num2,num3):
