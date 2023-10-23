@@ -13,3 +13,6 @@ response=requests.post(url,data=json.dumps(argumentos),headers=theheaders)
 decodetest=response.content.decode()
 print('*'*20)
 print(decodetest)
+print('-'*20)
+headersprint=response.headers
+print(headersprint)
